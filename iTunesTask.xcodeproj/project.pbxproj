@@ -9,23 +9,57 @@
 /* Begin PBXBuildFile section */
 		573F49472A45A11600C0B63D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F49462A45A11600C0B63D /* AppDelegate.swift */; };
 		573F49492A45A11600C0B63D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F49482A45A11600C0B63D /* SceneDelegate.swift */; };
-		573F494B2A45A11600C0B63D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F494A2A45A11600C0B63D /* ViewController.swift */; };
-		573F494E2A45A11600C0B63D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573F494C2A45A11600C0B63D /* Main.storyboard */; };
 		573F49512A45A11600C0B63D /* iTunesTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 573F494F2A45A11600C0B63D /* iTunesTask.xcdatamodeld */; };
 		573F49532A45A11800C0B63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573F49522A45A11800C0B63D /* Assets.xcassets */; };
 		573F49562A45A11800C0B63D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573F49542A45A11800C0B63D /* LaunchScreen.storyboard */; };
+		573F49602A45A1C700C0B63D /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F495F2A45A1C700C0B63D /* AlbumsViewController.swift */; };
+		573F49622A45A1D700C0B63D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F49612A45A1D700C0B63D /* AuthViewController.swift */; };
+		573F49642A45A1F200C0B63D /* DetailAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F49632A45A1F200C0B63D /* DetailAlbumViewController.swift */; };
+		573F49662A45A20400C0B63D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F49652A45A20400C0B63D /* SignUpViewController.swift */; };
+		573F49682A45A21700C0B63D /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F49672A45A21700C0B63D /* UserInfoViewController.swift */; };
+		573F496A2A45A23400C0B63D /* AlbumsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F49692A45A23400C0B63D /* AlbumsTableViewCell.swift */; };
+		573F496C2A45A24800C0B63D /* SongsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F496B2A45A24800C0B63D /* SongsCollectionViewCell.swift */; };
+		573F496E2A45A9AF00C0B63D /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F496D2A45A9AF00C0B63D /* UIStackView+Extension.swift */; };
+		573F49702A45A9CF00C0B63D /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F496F2A45A9CF00C0B63D /* UIViewController+Extension.swift */; };
+		573F49722A46E50A00C0B63D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F49712A46E50A00C0B63D /* String+Extension.swift */; };
+		573F49762A46F76800C0B63D /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F49752A46F76800C0B63D /* UserDefaultsManager.swift */; };
+		573F49792A46F8D800C0B63D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F49782A46F8D800C0B63D /* UserModel.swift */; };
+		573F497B2A47074800C0B63D /* AkertOk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F497A2A47074800C0B63D /* AkertOk.swift */; };
+		573F497D2A48AA5800C0B63D /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F497C2A48AA5800C0B63D /* AlbumModel.swift */; };
+		573F49802A48ABA200C0B63D /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F497F2A48ABA200C0B63D /* NetworkRequest.swift */; };
+		573F49822A48AEDD00C0B63D /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F49812A48AEDD00C0B63D /* NetworkDataFetch.swift */; };
+		573F49862A48C95000C0B63D /* SongsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573F49852A48C95000C0B63D /* SongsModel.swift */; };
+		7985E9FE4A88B8A04C4985E8 /* Pods_iTunesTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6893A45F0BC9E31BF5FFCB /* Pods_iTunesTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F6893A45F0BC9E31BF5FFCB /* Pods_iTunesTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		573F49432A45A11600C0B63D /* iTunesTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		573F49462A45A11600C0B63D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		573F49482A45A11600C0B63D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		573F494A2A45A11600C0B63D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		573F494D2A45A11600C0B63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		573F49502A45A11600C0B63D /* iTunesTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iTunesTask.xcdatamodel; sourceTree = "<group>"; };
 		573F49522A45A11800C0B63D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		573F49552A45A11800C0B63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		573F49572A45A11800C0B63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573F495F2A45A1C700C0B63D /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		573F49612A45A1D700C0B63D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		573F49632A45A1F200C0B63D /* DetailAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAlbumViewController.swift; sourceTree = "<group>"; };
+		573F49652A45A20400C0B63D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		573F49672A45A21700C0B63D /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		573F49692A45A23400C0B63D /* AlbumsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewCell.swift; sourceTree = "<group>"; };
+		573F496B2A45A24800C0B63D /* SongsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsCollectionViewCell.swift; sourceTree = "<group>"; };
+		573F496D2A45A9AF00C0B63D /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		573F496F2A45A9CF00C0B63D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		573F49712A46E50A00C0B63D /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		573F49752A46F76800C0B63D /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		573F49782A46F8D800C0B63D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		573F497A2A47074800C0B63D /* AkertOk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkertOk.swift; sourceTree = "<group>"; };
+		573F497C2A48AA5800C0B63D /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		573F497F2A48ABA200C0B63D /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		573F49812A48AEDD00C0B63D /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		573F49852A48C95000C0B63D /* SongsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsModel.swift; sourceTree = "<group>"; };
+		78884B9AED436F123424C9EA /* Pods-iTunesTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesTask.debug.xcconfig"; path = "Target Support Files/Pods-iTunesTask/Pods-iTunesTask.debug.xcconfig"; sourceTree = "<group>"; };
+		EB1ADFE658291EEA47CF4D8F /* Pods-iTunesTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesTask.release.xcconfig"; path = "Target Support Files/Pods-iTunesTask/Pods-iTunesTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +67,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7985E9FE4A88B8A04C4985E8 /* Pods_iTunesTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47D843A807E144C4A7E1A07D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78884B9AED436F123424C9EA /* Pods-iTunesTask.debug.xcconfig */,
+				EB1ADFE658291EEA47CF4D8F /* Pods-iTunesTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		573F493A2A45A11600C0B63D = {
 			isa = PBXGroup;
 			children = (
 				573F49452A45A11600C0B63D /* iTunesTask */,
 				573F49442A45A11600C0B63D /* Products */,
+				47D843A807E144C4A7E1A07D /* Pods */,
+				8FC0E96883B82D0C7501A96D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +104,95 @@
 		573F49452A45A11600C0B63D /* iTunesTask */ = {
 			isa = PBXGroup;
 			children = (
-				573F49462A45A11600C0B63D /* AppDelegate.swift */,
-				573F49482A45A11600C0B63D /* SceneDelegate.swift */,
-				573F494A2A45A11600C0B63D /* ViewController.swift */,
-				573F494C2A45A11600C0B63D /* Main.storyboard */,
+				573F497E2A48AB7A00C0B63D /* Network */,
+				573F49772A46F8BD00C0B63D /* Models */,
+				573F49732A46F6B600C0B63D /* Services */,
+				573F495D2A45A1A500C0B63D /* Controllers */,
+				573F49832A48B20000C0B63D /* Extensions */,
+				573F49842A48B24900C0B63D /* Supporter files */,
 				573F49522A45A11800C0B63D /* Assets.xcassets */,
 				573F49542A45A11800C0B63D /* LaunchScreen.storyboard */,
 				573F49572A45A11800C0B63D /* Info.plist */,
 				573F494F2A45A11600C0B63D /* iTunesTask.xcdatamodeld */,
 			);
 			path = iTunesTask;
+			sourceTree = "<group>";
+		};
+		573F495D2A45A1A500C0B63D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				573F495E2A45A1B000C0B63D /* Cells */,
+				573F495F2A45A1C700C0B63D /* AlbumsViewController.swift */,
+				573F49612A45A1D700C0B63D /* AuthViewController.swift */,
+				573F49652A45A20400C0B63D /* SignUpViewController.swift */,
+				573F49632A45A1F200C0B63D /* DetailAlbumViewController.swift */,
+				573F49672A45A21700C0B63D /* UserInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		573F495E2A45A1B000C0B63D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				573F49692A45A23400C0B63D /* AlbumsTableViewCell.swift */,
+				573F496B2A45A24800C0B63D /* SongsCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		573F49732A46F6B600C0B63D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				573F49752A46F76800C0B63D /* UserDefaultsManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		573F49772A46F8BD00C0B63D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				573F49782A46F8D800C0B63D /* UserModel.swift */,
+				573F497A2A47074800C0B63D /* AkertOk.swift */,
+				573F497C2A48AA5800C0B63D /* AlbumModel.swift */,
+				573F49852A48C95000C0B63D /* SongsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		573F497E2A48AB7A00C0B63D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				573F497F2A48ABA200C0B63D /* NetworkRequest.swift */,
+				573F49812A48AEDD00C0B63D /* NetworkDataFetch.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		573F49832A48B20000C0B63D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				573F496D2A45A9AF00C0B63D /* UIStackView+Extension.swift */,
+				573F496F2A45A9CF00C0B63D /* UIViewController+Extension.swift */,
+				573F49712A46E50A00C0B63D /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		573F49842A48B24900C0B63D /* Supporter files */ = {
+			isa = PBXGroup;
+			children = (
+				573F49462A45A11600C0B63D /* AppDelegate.swift */,
+				573F49482A45A11600C0B63D /* SceneDelegate.swift */,
+			);
+			path = "Supporter files";
+			sourceTree = "<group>";
+		};
+		8FC0E96883B82D0C7501A96D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6893A45F0BC9E31BF5FFCB /* Pods_iTunesTask.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 573F495A2A45A11800C0B63D /* Build configuration list for PBXNativeTarget "iTunesTask" */;
 			buildPhases = (
+				B225FD6C737CE781A5E08D09 /* [CP] Check Pods Manifest.lock */,
 				573F493F2A45A11600C0B63D /* Sources */,
 				573F49402A45A11600C0B63D /* Frameworks */,
 				573F49412A45A11600C0B63D /* Resources */,
+				62C14BD6EDD1AA1768CB85A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,35 +257,84 @@
 			files = (
 				573F49562A45A11800C0B63D /* LaunchScreen.storyboard in Resources */,
 				573F49532A45A11800C0B63D /* Assets.xcassets in Resources */,
-				573F494E2A45A11600C0B63D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62C14BD6EDD1AA1768CB85A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunesTask/Pods-iTunesTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunesTask/Pods-iTunesTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTunesTask/Pods-iTunesTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B225FD6C737CE781A5E08D09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTunesTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		573F493F2A45A11600C0B63D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573F494B2A45A11600C0B63D /* ViewController.swift in Sources */,
+				573F497B2A47074800C0B63D /* AkertOk.swift in Sources */,
+				573F49702A45A9CF00C0B63D /* UIViewController+Extension.swift in Sources */,
+				573F49642A45A1F200C0B63D /* DetailAlbumViewController.swift in Sources */,
+				573F49662A45A20400C0B63D /* SignUpViewController.swift in Sources */,
+				573F496A2A45A23400C0B63D /* AlbumsTableViewCell.swift in Sources */,
 				573F49472A45A11600C0B63D /* AppDelegate.swift in Sources */,
+				573F496E2A45A9AF00C0B63D /* UIStackView+Extension.swift in Sources */,
+				573F49682A45A21700C0B63D /* UserInfoViewController.swift in Sources */,
+				573F49722A46E50A00C0B63D /* String+Extension.swift in Sources */,
+				573F49802A48ABA200C0B63D /* NetworkRequest.swift in Sources */,
+				573F49862A48C95000C0B63D /* SongsModel.swift in Sources */,
 				573F49512A45A11600C0B63D /* iTunesTask.xcdatamodeld in Sources */,
+				573F49792A46F8D800C0B63D /* UserModel.swift in Sources */,
 				573F49492A45A11600C0B63D /* SceneDelegate.swift in Sources */,
+				573F497D2A48AA5800C0B63D /* AlbumModel.swift in Sources */,
+				573F49762A46F76800C0B63D /* UserDefaultsManager.swift in Sources */,
+				573F49622A45A1D700C0B63D /* AuthViewController.swift in Sources */,
+				573F49602A45A1C700C0B63D /* AlbumsViewController.swift in Sources */,
+				573F496C2A45A24800C0B63D /* SongsCollectionViewCell.swift in Sources */,
+				573F49822A48AEDD00C0B63D /* NetworkDataFetch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		573F494C2A45A11600C0B63D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573F494D2A45A11600C0B63D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		573F49542A45A11800C0B63D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,16 +462,17 @@
 		};
 		573F495B2A45A11800C0B63D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78884B9AED436F123424C9EA /* Pods-iTunesTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54WC7YP7UK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iTunesTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,16 +490,17 @@
 		};
 		573F495C2A45A11800C0B63D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB1ADFE658291EEA47CF4D8F /* Pods-iTunesTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54WC7YP7UK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iTunesTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
